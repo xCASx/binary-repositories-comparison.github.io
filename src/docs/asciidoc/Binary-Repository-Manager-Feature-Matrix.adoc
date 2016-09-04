@@ -32,7 +32,7 @@ image:pdrone1.png[PackageDrone1, width="100%", link="https://github.com/binary-r
 
 |*Latest Version*
 |2.0.1
-|4.11.2
+|4.12.0.1
 |2.11.2
 |3.0
 |0.12.1
@@ -681,6 +681,14 @@ seamless integration with a dedicated app in SumoLogic
 |[red]*&#10008;*
 |[red]*&#10008;*
 |[red]*&#10008;*
+
+|Monitor resource usage
+|*?*
+|[green]*&#10004;* +
+Monitor remote repositories, JFrog Xray client connection, distribution repositories, replication queries, HA event propagation and more with JMX MBeans.
+|*?*
+|*?*
+|*?*
 
 6+|*User Interface*
 
@@ -1521,7 +1529,7 @@ a|- http://www.jfrog.com/confluence/display/RTF/Build+Integration[Build Integrat
 - http://www.jfrog.com/home/v_artifactorypro_features#search[Smart Searches and Promotion] (Pro) to aggregate multiple search results and operate them in one go.
 - http://www.jfrog.com/home/v_artifactorypro_features#properties[Properties] (Pro) - Define custom searchable property sets and apply them to artifacts and folders.
 - http://www.jfrog.com/confluence/display/RTF/P2+Repositories[P2] (Pro) - Proxy and host all your Eclipse® plugins via an Artifactory P2 repository, allowing users to have a single-access-point for all Eclipse® updates.
-- http://www.jfrog.com/confluence/display/RTF/YUM+Repositories[Yum] (Pro) - Host and proxy RPMs directly in Artifactory, acting as fully-featured YUM repository with auto-updating repo metadata.
+- http://www.jfrog.com/confluence/display/RTF/YUM+Repositories[Yum] (Pro) - Host and proxy RPMs directly in Artifactory, acting as fully-featured YUM repository with auto-updating repo metadata. Use virtual repositories to download and upload RPMs using a single URL.
 - http://www.jfrog.com/confluence/display/RTF/NuGet+Repositories[Nuget] (Pro) - Host and proxy NuGet packages in Artifactory and pull libraries from Artifactory into your various Visual Studio .NET applications.
 - http://www.jfrog.com/confluence/display/RTF/RubyGems+Repository[Ruby Gems] (Pro) - Host and proxy Ruby Gems in Artifactory with full gem bundler and rake support
 - http://www.jfrog.com/confluence/display/RTF/Npm+Repositories[NPM] (Pro) - Host and proxy node.js npm packages in Artifactory with npm tools support
